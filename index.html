@@ -1,1 +1,54 @@
-"Hello Blokes" 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Michael Brooks</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body onscroll="scrolling()">
+      <img id="tag1" class="htmlart" src="./images/tag.png">
+      <img id="tag2" class="htmlart" src="./images/tag.png">
+      <img id="tag3" class="htmlart" src="./images/tag.png">
+      <img id="tag4" class="htmlart" src="./images/tag.png">
+
+    <div id="navigationsidebar">
+        <img src="./images/headshot.png" id="head">
+        <h1 id="name">Michael Brooks</h1>
+        <h1 class="navigationtext">Experience</h1>
+        <h1 class="navigationtext">Tech Stack</h1>
+        <h1 class="navigationtext">Projects</h1>
+        <h1 class="navigationtext">Resume</h1>
+        <div id="bottomofnav"></div>
+        <div id="topofnav"></div>
+    </div>
+
+    <div id="form">
+      <form action="mailto:you@yourdmainhere.com" method="post" enctype="text/plain" >
+        FirstName:<input type="text" name="FirstName">
+        Email:<input type="text" name="Email">
+        <input type="submit" name="submit" value="Submit">
+    </form> 
+    </div>
+
+    <div id="landing">
+      <div id="landingcontent">
+        <h1 class="introtext" id="hello">Hello, my name is </h1><h1 class="introtext" id="introname">Michael Brooks<br></h1>
+        <h1 class="introtext">I am a junior web developer,<br></h1>
+        <h1 class="introtext">a support engineer,<br></h1>
+        <h1 class="introtext">an API expert.<br></h1>
+        <button id="contactbutton" onclick="openform()">Contact me!</button>
+      </div>
+    </div>
+    <div id="arrowholder">
+    <img src="./images/arrow.png" id="arrow">
+    </div>
+
+    <div id="experiencesection">
+
+    </div>
+
+	<script src="./src/Javascript.js"></script>
+  </body>
+</html>
